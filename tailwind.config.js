@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     /* For Letter size */
     screens: {
-      print: {"raw": "print"},
+      print: { "raw": "print" },
       xsm: "500px",
       sm: "640px",
       md: "833px",
@@ -24,7 +24,7 @@ module.exports = {
     // },
     extend: {
       fontFamily: {
-        "firago": ["FiraGO", ...defaultTheme.fontFamily.sans],
+        "playfair": 'Playfair Display', serif
       },
       fontSize: {
         sm2: "0.9375rem", // 15px label
@@ -62,12 +62,12 @@ module.exports = {
         gray: {
           "150": "hsl(210, 44%, 97%)",
           "250": "hsl(210, 40%, 93.5%)",
-          "550": "hsl(218, 20%, 63%)",
+          "550": "hsl(226, 73%, 61%)",
           "650": "hsl(216, 15%, 48%)",
-          "750": "hsl(214, 17%, 32%)",
-          ...defaultTheme.colors.gray
+          "750": "hsl(214, 17%, 32%)"
         },
-        link: "#fbf3f3"
+        link: "#fbf3f3",
+        bl: "#3781a9"
       },
     },
   },
